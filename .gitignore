@@ -1,0 +1,29 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.rsuser
+
+# .NET build output
+bin/
+obj/
+out/
+TestResults/
+
+# cTrader local/project-generated files
+*.algo
+*.optres
+
+# Local data and secrets
+.env
+.env.*
+!.env.example
+*.log
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
