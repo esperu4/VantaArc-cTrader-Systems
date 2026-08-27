@@ -1,9 +1,9 @@
 # VantaArc cTrader Systems — Product Requirements Document
 
-**Document status:** Baseline product requirements for implementation planning  
-**Version:** 1.0  
-**Date:** 2026-08-28  
-**Owner:** VantaArc Systems  
+**Document status:** Baseline product requirements for implementation planning
+**Version:** 1.0
+**Date:** 2026-08-28
+**Owner:** VantaArc Systems
 **Author:** Manus AI
 
 ## Table of Contents
