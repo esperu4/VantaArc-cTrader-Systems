@@ -1,10 +1,12 @@
 # VantaArc cTrader Systems — Product Requirements Document
 
-**Document status:** Baseline product requirements for implementation planning
+**Document status:** Approved product requirements; implementation in progress
 **Version:** 1.0
 **Date:** 2026-08-28
 **Owner:** VantaArc Systems
 **Author:** Manus AI
+
+The first implementation increment now includes the platform-independent C# core, the delayed-confirmation state machine, broker-aware risk contracts, diagnostic ledger/export, shadow execution boundary, and a cTrader API-dependent cBot entry point. See [`TEST_REPORT.md`](TEST_REPORT.md) and [`IMPROVEMENTS.md`](IMPROVEMENTS.md) for current evidence and open platform-validation gates.
 
 ## Table of Contents
 

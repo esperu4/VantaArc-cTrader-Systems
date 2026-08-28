@@ -2,7 +2,7 @@
 
 **A carefully engineered cTrader/C# research project for transparent NAS100 automation.**
 
-> **Project status:** Planning and product-definition phase. No live-trading cBot is included yet. The first implementation will be built only after the requirements in [`docs/PRD.md`](docs/PRD.md) are reviewed and accepted.
+> **Project status:** Core implementation and shadow-adapter phase. The platform-independent strategy, risk, state, diagnostics, and test layers are implemented. The cTrader API-dependent entry point still requires compilation and verification inside the target cTrader installation before demo or live execution.
 
 ## Table of contents
 
@@ -419,7 +419,7 @@ Trade opened: long confirmation passed and all safety checks passed.
 
 ## Current status
 
-The project is currently in the **PRD and product-definition phase**.
+The project is currently in the **core implementation and shadow-adapter phase**. The platform-independent strategy, risk, state, diagnostics, and test layers are implemented. The cTrader API-dependent entry point still requires compilation and verification inside the target cTrader installation.
 
 Completed:
 
@@ -429,19 +429,31 @@ Completed:
 - Safety architecture documented.
 - Testing and diagnostic requirements documented.
 - Non-technical user workflow documented.
+- .NET solution and C# project architecture created.
+- VWAP, ATR, session, regime, confluence, candle, risk, and position-management core implemented.
+- Delayed-confirmation state machine implemented.
+- Shadow execution boundary and decision coordinator implemented.
+- JSON diagnostic export and opportunity-funnel summary implemented.
+- 24 automated C# tests passing with zero build warnings and zero build errors.
 
 Not yet completed:
 
 - cTrader broker selection.
 - cTrader symbol and contract-property verification.
-- C# solution creation.
-- Calculation-library implementation.
-- cBot implementation.
-- Backtest and demo validation.
+- Compilation against the proprietary cTrader `cAlgo.API` assembly.
+- Full chart overlay wiring.
+- Full staged position-management wiring in the cBot adapter.
+- cTrader visual backtest and demo validation.
+- Restart reconciliation and persistent setup-state validation.
 
 ## Documentation
 
 - [Product Requirements Document](docs/PRD.md) — the full product, strategy, architecture, safety, testing, and acceptance specification.
+- [cTrader Setup Guide](docs/CTRADER_SETUP.md) — how to build locally and verify the cBot inside cTrader.
+- [Implementation Test Report](docs/TEST_REPORT.md) — current automated evidence and open target-platform gates.
+- [Improvement and Gap Register](docs/IMPROVEMENTS.md) — missing pieces, risks, and recommended next improvements.
+- [Architecture Decisions](docs/DECISIONS.md) — the decisions that keep strategy, risk, and platform responsibilities separate.
+- [Platform API Notes](docs/research/PLATFORM_API_NOTES.md) — verified cTrader API facts and the Exness platform caveat.
 
 ## Risk warning
 

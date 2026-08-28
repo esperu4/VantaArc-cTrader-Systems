@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VantaArc.Core\VantaArc.Core.csproj" />
+    <Compile Remove="cBot/**/*.cs" />
+    <None Include="cBot\VantaArcNas100VwapConfluenceBot.cs" />
+  </ItemGroup>
+</Project>

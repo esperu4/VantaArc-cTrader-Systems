@@ -1,0 +1,47 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantaArc.Core", "src\VantaArc.Core\VantaArc.Core.csproj", "{2B1C79AB-6A4B-4A1E-B3B2-0F4CF7C9E101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantaArc.cTrader", "src\VantaArc.cTrader\VantaArc.cTrader.csproj", "{5A6F7F19-7CF2-4C3B-9FE9-19D7D3E68202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantaArc.Core.Tests", "tests\VantaArc.Core.Tests\VantaArc.Core.Tests.csproj", "{C0E8A9A7-57E7-4A7A-9F5D-DBEB7DCEB303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantaArc.Integration.Tests", "tests\VantaArc.Integration.Tests\VantaArc.Integration.Tests.csproj", "{EE24C0A1-84DB-4FAD-9F9B-A70B7EA3E404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{253EE492-D6A2-47FE-B7C3-C132C02D1B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantaArc.Analytics", "src\VantaArc.Analytics\VantaArc.Analytics.csproj", "{1EEDEB8B-0139-4A67-96E8-921806C82F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B1C79AB-6A4B-4A1E-B3B2-0F4CF7C9E101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1C79AB-6A4B-4A1E-B3B2-0F4CF7C9E101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1C79AB-6A4B-4A1E-B3B2-0F4CF7C9E101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1C79AB-6A4B-4A1E-B3B2-0F4CF7C9E101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6F7F19-7CF2-4C3B-9FE9-19D7D3E68202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6F7F19-7CF2-4C3B-9FE9-19D7D3E68202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6F7F19-7CF2-4C3B-9FE9-19D7D3E68202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6F7F19-7CF2-4C3B-9FE9-19D7D3E68202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E8A9A7-57E7-4A7A-9F5D-DBEB7DCEB303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E8A9A7-57E7-4A7A-9F5D-DBEB7DCEB303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E8A9A7-57E7-4A7A-9F5D-DBEB7DCEB303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E8A9A7-57E7-4A7A-9F5D-DBEB7DCEB303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE24C0A1-84DB-4FAD-9F9B-A70B7EA3E404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE24C0A1-84DB-4FAD-9F9B-A70B7EA3E404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE24C0A1-84DB-4FAD-9F9B-A70B7EA3E404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE24C0A1-84DB-4FAD-9F9B-A70B7EA3E404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEDEB8B-0139-4A67-96E8-921806C82F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEDEB8B-0139-4A67-96E8-921806C82F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEDEB8B-0139-4A67-96E8-921806C82F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEDEB8B-0139-4A67-96E8-921806C82F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EEDEB8B-0139-4A67-96E8-921806C82F55} = {253EE492-D6A2-47FE-B7C3-C132C02D1B4A}
+	EndGlobalSection
+EndGlobal
